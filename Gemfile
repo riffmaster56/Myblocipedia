@@ -56,3 +56,6 @@ gem 'pundit'
 gem 'faker'
 gem 'redcarpet'
 gem 'figaro'
+gem 'stripe'
+gem 'rolify'
+
