@@ -12,7 +12,7 @@ class User < ActiveRecord::Base
   end
 
   def before_add_method(role)
-    user = User.find(1)
+    @user = User.find(1)
     user.add_role :premium
   end
 
